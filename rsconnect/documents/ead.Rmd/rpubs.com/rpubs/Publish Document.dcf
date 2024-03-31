@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/1167894/e933b727eed34ee98bc14506a8147dfc
+bundleId: https://api.rpubs.com/api/v1/document/1167894/e933b727eed34ee98bc14506a8147dfc
+url: http://rpubs.com/giseldo/1167894
+version: 1
