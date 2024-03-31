@@ -4,7 +4,7 @@ output: html_notebook
 autor: "Giseldo da Silva Néo"
 ---
 
-Foi considerada violência física de pessoas do sexo feminino de 18 anos ou mais de idade que informaram terem sofrido violência física nos últimos 12 meses (Mil pessoas).  
+Foi considerada violência física de pessoas do sexo feminino de 18 anos ou mais de idade que informaram terem sofrido violência física em 2019.  
 Fonte: IBGE - Pesquisa Nacional de Saúde (Microdados da PNS de 2019) https://www.ipea.gov.br/atlasviolencia/dados-series/270.
 Autor: Giseldo da Silva Neo
 Email: giseldo@gmail.com
@@ -18,7 +18,7 @@ library(rnaturalearthdata)
 ```
 
 ```{r}
-df = read_csv('violencia.csv')
+df = read_csv('data/violencia.csv')
 head(df)
 ```
 ```{r}
@@ -57,7 +57,7 @@ Conforme dados a região brasileira que teve a maior quantidade de crimes contra
 
 ```{r}
 # Carregar os dados novamente
-df = read_csv('violencia.csv')
+df = read_csv('data/violencia.csv')
 
 # Carregar o shapefile do Brasil
 brasil <- ne_countries(country = "brazil", returnclass = "sf")
